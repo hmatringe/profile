@@ -1,0 +1,80 @@
+.title {
+ color: #DD5555;
+ font-size: 18px;
+ text-transform: uppercase
+}
+.number_times_seen {
+ color: #DD5555;
+ font-size: 18px
+}
+th {
+ font-size: 18px
+}
+body {
+  background-color: #EBEBEB;
+  font-family: Open-Sans, helvetica, sans-serif;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+th {
+  padding: 20px;
+}
+td {
+  text-align: center;
+  padding: 5px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Montserrat, helvetica, sans-serif;
+}
+h1 {
+  color: #DD5555;
+  font-size: 24px
+}
+h2 {
+  color: #DD5555;
+  font-size: 20px
+}
+h3 {
+  font-size: 16px
+}
+
+a,.fa {
+  color: #ccc;
+  text-decoration: none
+}
+a:hover {
+  color: #00BCD4;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+}
+
+.text-center {
+  text-align: center
+}
+.img-circle {
+  border-radius: 50%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  padding-left: 20px;
+}
+.number_times_seen {
+  color: #0D47A1;
+  font-style: italic;
+  font-size: 16px;
+}
