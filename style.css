@@ -1,3 +1,7 @@
+div {
+  display: block;
+}
+
 .title {
  color: #DD5555;
  font-size: 18px;
@@ -70,11 +74,34 @@ a:hover {
   display: inline-block;
   padding: 0px 20px;
 }
-.list-inline {
-  padding-left: 20px;
+#sidebar .list-inline > li {
+ padding: 20px 40px 20px 0px;
 }
 .number_times_seen {
   color: #0D47A1;
   font-style: italic;
   font-size: 16px;
 }
+.btn-primary {
+  color: white;
+  background-color: #DD5555;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #892E2C;
+  transition: 400ms;
+}
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 120px;
+}
+

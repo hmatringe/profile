@@ -13,81 +13,100 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-  <div class="card text-center">
-      <img src="images/profile.jpeg" alt="Hadrien's profile pic" width="200" class="img-circle">
-      <h2>Hadrien Matringe</h2>
-      <h3>Jack of all trades</h3>
-      <p><strong>50% Carpenter, 50% Developer, 50% Dreamer</strong>, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, vitae impedit. Eaque autem molestias maxime, asperiores quasi id impedit, blanditiis, delectus ea eveniet minima cumque iste debitis officiis? Et, sint!</p>
-      <a href="https://twitter.com/itsspacecats/status/496678841512132608" target="_blank">Taco... Cat??</a>
-    </div>
-    <div class="card text-center">
-      <ul class="list-inline">
-        <li><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/matringe"> Facebook</a></li>
-        <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/matringe"> Linkedin</a></li>
-        <li><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/hadr13n/"> Instagram</a></li>
-      </ul>
-    </div>
-    <div class="card text-center">
-      <h2>My favorite movies</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Poster</th>
-            <th>Details</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><img src="images/le_grand_bleu.jpg" alt="le grand bleu poster"></td>
-            <td>
-              <p class="title">Le grand bleu</p>
-              <p class="number_times_seen">
-                seen 67 times
-              </p>
-              <p>
-                The rivalry between Enzo and Jacques, two childhood friends and now world-renowned free divers, becomes a beautiful and perilous journey into oneself and the unknown.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/leon.jpg" alt="leon poster"></td>
-            <td>
-              <p class="title">Léon</p>
-              <p class="number_times_seen">
-                seen 54 times
-              </p>
-              <p>
-                Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. Léon and Mathilda form an unusual relationship, as she becomes his protégée and learns the assassin's trade.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/orange_county.jpg" alt="orange county poster"></td>
-            <td>
-              <p class="title">Orange county</p>
-              <p class="number_times_seen">
-                seen 36 times
-              </p>
-              <p>
-                A guidance counselor mistakenly sends out the wrong transcripts to Stanford University under the name of an over-achieving high schooler.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/the_other_guys.jpg" alt="the other guys poster"></td>
-            <td>
-              <p class="title">The other guys</p>
-              <p class="number_times_seen">
-                seen 17 times
-              </p>
-              <p>
-                Two mismatched New York City detectives seize an opportunity to step up like the city's top cops whom they idolize -- only things don't quite go as planned.
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+  <div id="sidebar" class="text-center">
+  <ul class="list-inline">
+    <li>
+    <a href="#social"><i class="fa fa-info fa-2x" aria-hidden="true"></i></a>
+    </li>
+    <li>
+    <a href="#favorite-movies"><i class="fa fa-film fa-2x" aria-hidden="true"></i></a>
+    </li>
+    <li>
+    <a href="#about"><i class="fa fa-rocket fa-2x" aria-hidden="true"></i></a>
+    </li>
+  </ul>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <div class="card text-center">
+        <img src="images/profile.jpeg" alt="Hadrien's profile pic" width="180" class="img-circle">
+        <h2>Hadrien Matringe</h2>
+        <h3>Jack of all trades</h3>
+        <p><strong>50% Carpenter, 50% Developer, 50% Dreamer</strong>, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, vitae impedit. Eaque autem molestias maxime, asperiores quasi id impedit, blanditiis, delectus ea eveniet minima cumque iste debitis officiis? Et, sint!</p>
+        <a class="btn-primary" href="https://twitter.com/itsspacecats/status/496678841512132608" target="_blank">Taco... Cat??</a>
+      </div>
+      <div class="card text-center" id="social">
+        <ul class="list-inline">
+          <li><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/matringe"> Facebook</a></li>
+          <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/matringe"> Linkedin</a></li>
+          <li><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/hadr13n/"> Instagram</a></li>
+        </ul>
+      </div>
+      <div class="card text-center" id="favorite-movies">
+        <h2>My favorite movies</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Poster</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="images/le_grand_bleu.jpg" alt="le grand bleu poster"></td>
+              <td>
+                <p class="title">Le grand bleu</p>
+                <p class="number_times_seen">
+                  seen 67 times
+                </p>
+                <p>
+                  The rivalry between Enzo and Jacques, two childhood friends and now world-renowned free divers, becomes a beautiful and perilous journey into oneself and the unknown.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/leon.jpg" alt="leon poster"></td>
+              <td>
+                <p class="title">Léon</p>
+                <p class="number_times_seen">
+                  seen 54 times
+                </p>
+                <p>
+                  Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. Léon and Mathilda form an unusual relationship, as she becomes his protégée and learns the assassin's trade.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/orange_county.jpg" alt="orange county poster"></td>
+              <td>
+                <p class="title">Orange county</p>
+                <p class="number_times_seen">
+                  seen 19 times
+                </p>
+                <p>
+                  A guidance counselor mistakenly sends out the wrong transcripts to Stanford University under the name of an over-achieving high schooler.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/the_other_guys.jpg" alt="the other guys poster"></td>
+              <td>
+                <p class="title">The other guys</p>
+                <p class="number_times_seen">
+                  seen 17 times
+                </p>
+                <p>
+                  Two mismatched New York City detectives seize an opportunity to step up like the city's top cops whom they idolize -- only things don't quite go as planned.
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card text-center" id="about">
+        <h3>About this page</h3>
+        <p>This page has been coded during the <a href="https://www.lewagon.com/program">FullStack program @LeWagon</a>.<br>Work in progress.</p>
+      </div>
     </div>
   </div>
 </body>
